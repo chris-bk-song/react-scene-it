@@ -19,9 +19,10 @@ export default class MovieSearch extends Component {
     fetch(`https://www.omdbapi.com/?apikey=b43843a0&s=${title}`)
       .then(res => res.json())
       .then(data => {
-        if (data.MovieSearch) {
+        console.log(data)
+        if (data.Search) {
           this.setState({
-            movies: data.MovieSearch
+            movies: data.Search
           })
         }
       })
