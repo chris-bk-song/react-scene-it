@@ -1,0 +1,33 @@
+.Background {
+  background-color: rgb(35, 37, 40);
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 7px;
+}
+
+.Header {
+  color: rgb(221, 67, 71); 
+}
+
+label {
+  color: white;
+}
+
+.SearchInput {
+  width: 500px;
+  border-radius: 5px;
+  border: none;
+}
+
+.SearchButton {
+  background-color: rgb(221, 67, 71);
+  border-radius: 5px;
+  border: none;
+}
+
+.LinkButton {
+  background-color: peru;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 770px;
+}
